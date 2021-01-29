@@ -1,0 +1,7 @@
+/*#style*/
+/*.style appel le style pour l'élément*/
+/*h1 applique le style à la balise*/
+h1{
+    color:blue;
+    background-color: brown;
+}
