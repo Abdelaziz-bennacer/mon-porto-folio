@@ -1,0 +1,1 @@
+String sqlIntoSalle = "Insert into salles (code, libelle) " + " values ( '"+salle.getCode()+"','"+salle.getLibelle()+"')";
