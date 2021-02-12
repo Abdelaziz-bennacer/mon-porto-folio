@@ -1,15 +1,21 @@
-
+body{
+    background-color: rgb(145, 145, 145);
+}
+.main{
+    display: flex;
+    flex-direction: column;
+}
 .box-top{
-    width : 50vm;
-    height: 33vm;
+    width : 50vw;
+    height: 33vh;
 }
 .box-middle{
-    width : 50vm;
-    height: 33vm; 
+    width : 50vw;
+    height: 33vh; 
 }
 .box-bottom{
-    width : 50vm;
-    height: 33vm;
+    width : 50vw;
+    height: 33vh;
 }
 
 .white{
