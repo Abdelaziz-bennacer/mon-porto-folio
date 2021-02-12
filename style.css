@@ -1,15 +1,25 @@
-.white{
-    background-color: white;
+
+.box-top{
     width : 50vm;
     height: 33vm;
 }
+.box-middle{
+    width : 50vm;
+    height: 33vm; 
+}
+.box-bottom{
+    width : 50vm;
+    height: 33vm;
+}
+
+.white{
+    background-color: white;
+   
+}
 .blue{
     background-color: blue;
-    width: 50vm;
-    height: 33vm;
+    
 }
 .black{
     background-color: black;
-    width: 50vm;
-    height: 33vm;
 }
