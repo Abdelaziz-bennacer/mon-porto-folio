@@ -1,18 +1,135 @@
 <!DOCTYPE html>
-<html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Mon Portfolio</title>
-</head>
-<body>
-    <div class="main">
-        <div class = "white box-top"></div>
-        <div class = "blue box-middle"></div>
-        <div class = "black box-bottom"></div>
 
-    </div>
-</body>
+<html lang="fr">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title></title>
+		<link href="default.css" rel="stylesheet" type="text/css" media="all" />
+
+		<script>
+			function show(id) {
+				document.getElementById(id).style.visibility = "visible";
+			}
+			function hide(id) {
+				document.getElementById(id).style.visibility = "hidden";
+			}
+		</script>
+
+	</head>
+	<body>
+		<div id="header-wrapper">
+			<div id="header" class="container">
+				<div id="logo">
+					<h1 id="titleName">Abdelaziz Bennacer<br>Développeur Java/Kotlin</h1>
+				</div>
+				<div id="menu">
+					<ul>
+						<li class="active"><a href="index.html" accesskey="1" title="">Home</a></li>
+						<li><a href="images/CV_Web.pdf" accesskey="2" title="">Curriculum<br><span class="secondLine">Vitae</span></a></li>
+						<li><a href="realisations.html" accesskey="3" title="">Réalisations</a></li>
+						<li><a href="contact.html" accesskey="4" title="">Contact</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div id="banner-wrapper">
+			<div id="banner" >
+				<img class="logoTech" src="images/html.png" alt="Html">
+				<img class="logoTech" src="images/CSS.png" alt="CSS">
+				<img class="logoTech" src="images/java.png" alt="Java">
+				<img class="logoTech" src="images/kotlin.png" alt="Kotlin">
+				<img class="logoTech" src="images/JS.png" alt="">
+				<img class="logoTech" src="images/J2EE.png" alt="Java">
+				<img class="logoTech" src="images/oracle.png" alt="">
+				<img class="logoTech" src="images/mongo.png" alt="">
+				<img class="logoTech" src="images/spring.png" alt="">
+				<img class="logoTech" src="images/springboot.png" alt="">
+				<img class="logoTech" src="images/VueJS.jpg" alt="">
+				<img class="logoTech" src="images/android.png" alt="">
+			</div>
+		</div>
+		<div id="page-wrapper">
+			<div id="page" class="container">
+				<div id="content">
+					<div id="two-column">
+						<div id="tbox1">
+							<div class="box-style"><img src="images/moi.jpg" width="150" height="135" alt="" />
+								<h3>Le meilleur choix pour votre entreprise</h3>
+								<p>Concepteur développeur d'applications surmotivé et plein de ressources recherche équipe d'experts sachant saisir les bonnes opportunités. Aimant apprendre et me dépasser continuellement, je mettrai toute ma force au service de nos futurs objectifs et de notre succès.</p>
+							</div>
+							<div class="box-style"><img src="images/PasionJava.jpg" width="150" height="120" alt="" />
+								<h3>Passion Java</h3>
+								<p>La technologie Java définit à la fois un langage de programmation orienté objet robuste et éprouvé, et une plateforme informatique. La technologie Java est indissociable du domaine de l'informatique et du Web et est exploitée dans le monde entier pour développer et fournir des applications mobiles, des jeux, du contenu Web et des logiciels d'entreprise. Cette découverte est devenue une véritable passion pour moi. Et je suis déterminé à en devenir un expert.</p>
+							</div>
+						</div>
+						<div id="tbox2">
+							<div class="box-style">
+								<h3>Conception et développement</h3>
+								<p>Maquetter une application, Développer une interface utilisateur, Développer des composants d’accès aux données, Concevoir et mettre en place une base de données, Concevoir et développer une application en couches, Développer une application mobile, Concevoir et exécuter les plans de tests, Préparer et exécuter le déploiement </p>
+							</div>
+							<div class="box-styleKot"><img src="images/pqKotlin.png" width="150" height="120" alt="" />
+								<h3>Pourquoi Kotlin?</h3>
+								<p>En 2011 Jetbrains annonçait le développement du langage Kotlin qui est rapidement devenu le langage officiel du premier système d'exploitation mobile. Pour comprendre l'attrait pour Kotlin, il faut d'abord comprendre le rôle de Java dans le paysage du développement logiciel. Les deux langages sont étroitement liés, parce que le code Kotlin est le plus souvent écrit pour la machine virtuelle Java, ils sont interopérables. De plus Kotlin est un langage multipateforme généraliste qui peut être utilisé pour écrire des applications MacOs et Windows natives, des applications JavaScript, ou encore des applications Android.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="footer-wrapper">
+			<div id="footer" class="container1">
+				<header>Supports théoriques et techniques favoris</header>
+				<div id="fbox1">
+					<h3>Ouvrages</h3>
+					<ul class="listeRes">
+						<li><span class="ouvrage" onmouseover="show('Im1')" onmouseout="hide('Im1')"><span class="author">Claude Delanoy:</span> <b>Programmer en Java</b>, <em>11ème édition, Editions Eyrolles, 2020</em>
+							<img class="vignette" id="Im1" src="images/livre1.jpg" alt=""></span>
+						</li>
+						<li><span class="ouvrage" onMouseOver="show('Im2')" onMouseOut="hide('Im2')"><span class="author">Vincent Granet</span>, <span class="author">Jean-Pierre Regourd:</span> <b>Aide-Mémoire Java</b>, <em>5ème édition, Dunod, 2019</em>
+							<img class="vignette" id="Im2" src="images/livre2.jpg" alt=""></span>
+						</li>
+						<li><span class="ouvrage" onMouseOver="show('Im3')" onMouseOut="hide('Im3')"><span class="author">Josh Skeen</span>, <span class="author">David Greenhalgh:</span> <b>Programmer en Kotlin</b>, <em>Dunod, 2020</em>
+							<img class="vignette" id="Im3" src="images/livre3.jpeg" alt=""></span>
+						</li>
+						<li><span class="ouvrage" onMouseOver="show('Im4')" onMouseOut="hide('Im4')"><span class="author">Anthony Cosson:</span> <b>Kotlin: Les fondamentaux du développement d'applications Android</b>, <em>ENI Editions,2018</em>
+							<img class="vignette" id="Im4" src="images/livre4.jpg" alt=""></span>
+						</li>
+						<li><span class="ouvrage" onMouseOver="show('Im5')" onMouseOut="hide('Im5')"><span class="author">Olivier Hondermarck:</span> <b>Tout Javascript</b>, <em>2ème édition, Dunod, 2020</em>
+						<img class="vignette" id="Im5" src="images/livre5.jpg" alt=""></span>
+						</li>
+						<li><span class="ouvrage" onMouseOver="show('Im6')" onMouseOut="hide('Im6')"><span class="author">Christian Soutou:</span> <b>Modélisation des bases de données</b>, <em>4ème édition, Editions Eyrolles, 2017</em>
+						<img class="vignette" id="Im6" src="images/livre6.jpg" alt=""></span>
+						</li>
+						<li><span class="ouvrage" onMouseOver="show('Im7')" onMouseOut="hide('Im7')"><span class="author">Sébastien Ferrandez:</span> <b>MongoDB: comprendre et optimiser l'exploitation de vos données</b>, <em>ENI Editions, 2019</em>
+						<img class="vignette" id="Im7" src="images/livre7.jpg" alt=""></span>
+						</li>
+						<li><span class="ouvrage" onMouseOver="show('Im8')" onMouseOut="hide('Im8')"><span class="author">Christian Soutou:</span> <b>Programmer avec Oracle</b>, <em>Editions Eyrolles, 2020</em>
+						<img class="vignette" id="Im8" src="images/livre8.jpg" alt=""></span>
+						</li>
+					</ul>
+				</div>
+				<div id="fbox2">
+					<h3>Sites web</h3>
+					<ul class="listeResW">
+						<li><a href="https://java.developpez.com/">La section Java de "developpez.com"</a></li>
+						<li><a href="https://openclassrooms.com/fr/courses"> Les cours de "OpenClassRoom.com"</a></li>
+						<li><a href="https://kotlinlang.org/">la documentation sur "KotlinLang.org"</a></li>
+						<li><a href="https://university.mongodb.com/">L'apprentissage avec "MongoDB University"</a></li>
+						<li><a href="https://developer.android.com/"> Un univers à découvrir sur "developer.android.com"</a></li>
+						<li><a href="https://www.jmdoudoux.fr/accueil_java.htm">Les bons conseils de JM Doudoux</a></li>
+						<li><a href="https://www.youtube.com/user/hounwanou1993">Les Teachers du Net et autres supports vidéo de Youtube</a></li>
+						<li><a href="https://www.udemy.com/">Udemy, parce qu'il faut savoir investir pour sa réussite</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div id="copyright" class="container">
+			<div>
+				<a href="https://www.linkedin.com/in/abdelaziz-bennacer-52018b195"><img src="images/LogLin.png" alt="" height="30em"></a>
+				<a href="https://github.com/Abdelaziz-bennacer"><img src="images/LogGit.png" alt="" height="30em"></a>
+				<a href="contact.html"><img src="images/LogMail.png" alt="" height="30em"></a>
+			</div>
+			<p>&copy; Abdelaziz Bennacer. All rights reserved.</p>
+		</div>
+	</body>
 </html>
