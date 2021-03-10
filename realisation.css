@@ -1,0 +1,12 @@
+
+.capture
+{
+    height: 40em;
+    width: 75em;
+    position: absolute;
+    left: 25em;
+    top: 5em;
+
+}
+
+#reaImg1{visibility: hidden}
