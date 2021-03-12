@@ -14,12 +14,12 @@
     $('.validate-form').on('submit',function(){
         var check = true;
 
-        if($(name).val().trim() == ''){
+        if($(name).val().trim() === ''){
             showValidate(name);
             check=false;
         }
 
-        if($(subject).val().trim() == ''){
+        if($(subject).val().trim() === ''){
             showValidate(subject);
             check=false;
         }
@@ -30,7 +30,7 @@
             check=false;
         }
 
-        if($(message).val().trim() == ''){
+        if($(message).val().trim() === ''){
             showValidate(message);
             check=false;
         }
