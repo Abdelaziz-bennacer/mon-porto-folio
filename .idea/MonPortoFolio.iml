@@ -17,6 +17,8 @@
       <excludeFolder url="file://$MODULE_DIR$/vendor/vendor/swiftmailer" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/vendor/composer" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/vendor/doctrine" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/bootstrap/js" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/bootstrap/css" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

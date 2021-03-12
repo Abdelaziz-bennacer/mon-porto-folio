@@ -16,6 +16,8 @@
       <path value="$PROJECT_DIR$/vendor/vendor/swiftmailer" />
       <path value="$PROJECT_DIR$/vendor/vendor/composer" />
       <path value="$PROJECT_DIR$/vendor/vendor/doctrine" />
+      <path value="$PROJECT_DIR$/vendor/bootstrap/js" />
+      <path value="$PROJECT_DIR$/vendor/bootstrap/css" />
     </include_path>
   </component>
 </project>
