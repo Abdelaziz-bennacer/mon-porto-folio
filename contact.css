@@ -1,0 +1,88 @@
+
+.contact1
+{
+    background-color: white;
+    height: 50em;
+}
+
+.container-contact
+{
+    background-color: dodgerblue;
+    height: 50em;
+    width: 75em;
+    margin-left: 22em;
+
+}
+
+.contact1-form-title
+{
+    position: absolute;
+    top: 15em;
+    left: 55em;
+    font-size: larger;
+}
+
+.wrap-input1
+{
+    position: absolute;
+    top: 22em;
+    left: 65em;
+}
+
+.input1
+{
+    height: 2.5em;
+    width: 20em;
+    border-radius: 1em;
+}
+
+.wrap-input2
+{
+    position: absolute;
+    top: 27em;
+    left: 65em;
+}
+
+.input2
+{
+    height: 2.5em;
+    width: 20em;
+    border-radius: 2em;
+}
+
+.wrap-input3
+{
+    position: absolute;
+    top: 32em;
+    left: 65em;
+}
+
+.input3
+{
+    height: 2.5em;
+    width: 20em;
+    border-radius: 2em;
+}
+
+.wrap-input4
+{
+    position: absolute;
+    top: 37em;
+    left: 65em;
+}
+
+.input4
+{
+    height: 8em;
+    width: 20em;
+    border-radius: 2em;
+}
+
+.contact1-form-btn
+{
+    position: absolute;
+    top: 46em;
+    left: 70em;
+    border-radius: 2em;
+}
+
